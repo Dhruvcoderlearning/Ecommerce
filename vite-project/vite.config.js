@@ -11,14 +11,6 @@ plugins: [react(), tailwindcss()],
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  
-  server: {
-    host: true,
-    port: 5173,
-    allowedHosts: [
-      '.ngrok-free.dev'   // ✅ allow ngrok URLs
-    ]
-  }
 })
 
 
